@@ -778,13 +778,13 @@
   }
   
   /*------------customer------------*/
-  /*------------gallary------------*/
-  .gallary .item {
+  /*------------gallery------------*/
+  .gallery .item {
     position: relative;
     cursor: pointer;
   }
   
-  .gallary .overlay i {
+  .gallery .overlay i {
     position: absolute;
     top: 40%;
     left: 40%;
@@ -794,7 +794,7 @@
     color: white;
   }
   
-  .gallary .overlay {
+  .gallery .overlay {
     position: absolute;
     content: '';
     background: rgba(204, 140, 24, 0.73);
@@ -805,14 +805,14 @@
     opacity: 0;
   }
   
-  .gallary .item:hover .overlay,
-  .gallary .item:hover i {
+  .gallery .item:hover .overlay,
+  .gallery .item:hover i {
     opacity: 1;
     transition: 0.5s;
     cursor: pointer;
   }
   
-  /*------------gallary------------*/
+  /*------------gallery------------*/
   /*------------blog------------*/
   .blog .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -1190,7 +1190,7 @@
           <li> <a href="#services">services</a> </li>
           <li> <a href="#shop">shop</a> </li>
           <li> <a href="#testimonials">testimonials</a> </li>
-          <li> <a href="#gallary">gallary</a> </li>
+          <li> <a href="#gallery">gallery</a> </li>
           <li> <a href="#blog">blog</a> </li>
           <li> <a href="#contact">contact</a> </li>
         </ul>
@@ -1730,7 +1730,7 @@
   </script>
 
 
-  <section class="gallary top" id="gallary">
+  <section class="gallery top" id="gallery">
     <div class="owl-carousel owl-theme">
       <div class="item">
         <img src="image/g1.jpg" alt="">
